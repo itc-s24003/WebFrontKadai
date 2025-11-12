@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 8px;
+  background: white;
+}
+
+.thumb {
+  width: 96px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.title {
+  font-weight: 700;
+  margin: 0;
+}
+
+.description {
+  margin: 0.25rem 0 0 0;
+  color: #374151;
+}

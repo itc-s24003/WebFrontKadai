@@ -1,0 +1,20 @@
+[
+  {
+    "id": "valorant",
+    "title": "VALORANT",
+    "description": "5v5 タクティカルシューター。チームで戦略を練り、個性的なエージェントを使って勝利を目指す。",
+  "thumbnail": "https://via.placeholder.com/320x180?text=Valorant"
+  },
+  {
+    "id": "zelda",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "description": "広大なオープンワールドで自由に冒険するアクションアドベンチャー。謎解きと探索が魅力。",
+  "thumbnail": "https://via.placeholder.com/320x180?text=Zelda"
+  },
+  {
+    "id": "minecraft",
+    "title": "Minecraft",
+    "description": "ブロックで世界を作り、サバイバルやクリエイティブで遊べる人気ゲーム。",
+  "thumbnail": "https://via.placeholder.com/320x180?text=Minecraft"
+  }
+]
