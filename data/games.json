@@ -1,20 +1,32 @@
 [
   {
-    "id": "valorant",
-    "title": "VALORANT",
-    "description": "5v5 タクティカルシューター。チームで戦略を練り、個性的なエージェントを使って勝利を目指す。",
-  "thumbnail": "https://via.placeholder.com/320x180?text=Valorant"
+    "id": "mario-party-jumbo",
+    "title": "マリオパーティー ジャンボリー",
+    "description": "マリオたちと一緒にボードゲームで競い合う！ミニゲームやルーレットで運と実力が試される、友達と盛り上がれるパーティゲーム。最大4人で遊べて、何度でも新しい展開が待っている。",
+    "thumbnail": "/images/mpj.webp"
   },
   {
-    "id": "zelda",
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "description": "広大なオープンワールドで自由に冒険するアクションアドベンチャー。謎解きと探索が魅力。",
-  "thumbnail": "https://via.placeholder.com/320x180?text=Zelda"
+    "id": "smash-bros-special",
+    "title": "大乱闘スマッシュブラザーズ SPECIAL",
+    "description": "Nintendo の人気キャラクターが集結！スピード感あふれるアクション対戦ゲーム。オンライン対戦、ローカルマルチプレイ、ストーリーモードと遊び方が豊富。初心者から上級者まで楽しめるゲームバランス。",
+    "thumbnail": "/images/ssb.webp"
   },
   {
-    "id": "minecraft",
-    "title": "Minecraft",
-    "description": "ブロックで世界を作り、サバイバルやクリエイティブで遊べる人気ゲーム。",
-  "thumbnail": "https://via.placeholder.com/320x180?text=Minecraft"
+    "id": "gang-beasts",
+    "title": "Gang Beasts",
+    "description": "クレイジーな怪物キャラで暴れまわる！ジャイロ体操のような操作で、ビルからの落下や爆発に巻き込まれながら戦う。友達と遊ぶと笑いが止まらないカオスアクションゲーム。",
+    "thumbnail": "/images/Gang Beasts.webp"
+  },
+  {
+    "id": "ultimate-chicken-horse",
+    "title": "Ultimate Chicken Horse",
+    "description": "プレイヤーがステージを作りながらレースする、ユニークなパズルプラットフォーマー。トラップ・障害物を仕掛けて相手を妨害。創造性と戦略が融合した、新しい楽しさが詰まっています。",
+    "thumbnail": "/images/Ultimate Chicken Horse.webp"
+  },
+  {
+    "id": "unspottable",
+    "title": "Unspottable",
+    "description": "群衆に紛れて隠れる！ハイテンションなかくれんぼゲーム。複雑な背景や多数のNPCに紛れて、探す人を翻弄する。友達と本気で遊べば、白熱間違いなしのパーティゲーム。",
+    "thumbnail": "/images/Unspottable.jpg"
   }
 ]

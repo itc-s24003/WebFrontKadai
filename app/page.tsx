@@ -5,12 +5,11 @@ export default async function Home() {
   const games: Game[] = await getGames();
 
   return (
-    <main style={{ maxWidth: 900, margin: "2rem auto", padding: "0 1rem" }}>
-      <h1 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>ゲーム紹介サイト</h1>
-      <p style={{ color: "#374151", marginBottom: "1.5rem" }}>
-        microCMS に保存したゲーム情報（またはローカルのサンプルデータ）を表示します。
-      </p>
-      <div style={{ display: "grid", gap: "1rem" }}>
+    <main style={{ maxWidth: 1000, margin: "0 auto", padding: "2rem 1rem" }}>
+      <div style={{ marginBottom: "2rem" }}>
+        <h1 style={{ fontSize: "2rem", fontWeight: 700, margin: "0 0 0.5rem 0" }}>好きなパーティーゲーム紹介</h1>
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1.5rem" }}>
         {games.map((g) => (
           <GameCard
             key={g.id}
@@ -21,9 +20,6 @@ export default async function Home() {
           />
         ))}
       </div>
-      <footer style={{ marginTop: "2rem", color: "#6b7280" }}>
-        <small>Let&apos;s deploy to Vercel and connect microCMS for real content.</small>
-      </footer>
     </main>
   );
 }
