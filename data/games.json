@@ -2,31 +2,81 @@
   {
     "id": "mario-party-jumbo",
     "title": "マリオパーティー ジャンボリー",
-    "description": "マリオたちと一緒にボードゲームで競い合う！ミニゲームやルーレットで運と実力が試される、友達と盛り上がれるパーティゲーム。最大4人で遊べて、何度でも新しい展開が待っている。",
-    "thumbnail": "/images/mpj.webp"
+    "description": "今作の舞台は、綺麗な海が広がる、巨大なリゾートアイランド。マリオたちが島々を巡り、スゴロクにミニゲーム、さまざまな新モードなどを楽しむことができます。",
+    "thumbnail": "/images/mario-party-jumbo.webp",
+    "platform": "Switch",
+    "players": "1〜4人"
   },
   {
     "id": "smash-bros-special",
     "title": "大乱闘スマッシュブラザーズ SPECIAL",
-    "description": "Nintendo の人気キャラクターが集結！スピード感あふれるアクション対戦ゲーム。オンライン対戦、ローカルマルチプレイ、ストーリーモードと遊び方が豊富。初心者から上級者まで楽しめるゲームバランス。",
-    "thumbnail": "/images/ssb.webp"
+    "description": "マリオやしずえ、カービィやリンクなど、さまざまなゲームに登場する70体以上のキャラクターたちが大集結。カンタン操作でいろいろなワザを出しながら相手を攻撃し、ダメージがたまったらステージの外にふっとばす！",
+    "thumbnail": "/images/smash-bros-special.webp",
+    "platform": "Switch",
+    "players": "1〜8人"
   },
   {
     "id": "gang-beasts",
     "title": "Gang Beasts",
-    "description": "クレイジーな怪物キャラで暴れまわる！ジャイロ体操のような操作で、ビルからの落下や爆発に巻き込まれながら戦う。友達と遊ぶと笑いが止まらないカオスアクションゲーム。",
-    "thumbnail": "/images/Gang Beasts.webp"
+    "description": "ゼリーのようにグニャグニャのキャラクターたちが、とんでもなく危険なステージでドタバタの乱闘を繰り広げる、おバカなマルチプレイヤー・パーティーゲーム。ビーフシティの無法地帯が舞台だ。",
+    "thumbnail": "/images/gang-beasts.webp",
+    "platform": "Switch",
+    "players": "1〜4人"
   },
   {
     "id": "ultimate-chicken-horse",
     "title": "Ultimate Chicken Horse",
-    "description": "プレイヤーがステージを作りながらレースする、ユニークなパズルプラットフォーマー。トラップ・障害物を仕掛けて相手を妨害。創造性と戦略が融合した、新しい楽しさが詰まっています。",
-    "thumbnail": "/images/Ultimate Chicken Horse.webp"
+    "description": "ワナを仕掛けたりかわしたりのハチャメチャバトル目指すのいつだってナンバーワンさ！ローカルでもオンラインでも、最大4人で楽しめるハチャメチャパーティーアクションゲーム『Ultimate Chicken Horse』がNintendo Switchに見参！",
+    "thumbnail": "/images/ultimate-chicken-horse.webp",
+    "platform": "Switch",
+    "players": "1〜4人"
   },
   {
     "id": "unspottable",
     "title": "Unspottable",
-    "description": "群衆に紛れて隠れる！ハイテンションなかくれんぼゲーム。複雑な背景や多数のNPCに紛れて、探す人を翻弄する。友達と本気で遊べば、白熱間違いなしのパーティゲーム。",
-    "thumbnail": "/images/Unspottable.jpg"
+    "description": "家族や友達などで遊べる対戦ゲーム。パンチを食らう前に、相手を打ち負かせ！たくさんいるキャラクターの中に隠れている対戦相手にそっと近づいて、各エリアごとに設定されたルールや機能を巧みに使って勝利を勝ち取ろう。",
+    "thumbnail": "/images/unspottable.jpg",
+    "platform": "Switch",
+    "players": "1〜8人"
+  },
+  {
+    "id": "mario-tennis-aces",
+    "title": "マリオテニス エース",
+    "description": "シンプルな操作で多彩なショットを打ち分け、誰でもラリーの楽しさを味わえる「マリオテニス」シリーズ。今作では、ねらいを定めてピンポイントに球を打ち込む「ねらいうち」や、遠くを狙われた球に追いつく「加速」、究極の一撃「スペシャルショット」などが加わり、より奥深い駆け引きが楽しめるようになりました。",
+    "thumbnail": "/images/mario-tennis-aces.webp",
+    "platform": "Switch",
+    "players": "1〜4人"
+  },
+  {
+    "id": "wiiparty",
+    "title": "Wii Party",
+    "description": "家族で、仲間で、誰とでも、少しの時間で気軽に楽しめるパーティーゲーム集です。キャラクターは自分たちそっくりのMii。プレイヤーとして操作することはもちろん、様々なシチュエーションで画面に登場します。",
+    "thumbnail": "/images/wiiparty.png",
+    "platform": "Wii",
+    "players": "1〜4人"
+  },
+  {
+    "id": "nintendo-land",
+    "title": "Nintendo Land",
+    "description": "「スーパーマリオ」や「ゼルダの伝説」など、任天堂のゲームタイトルをモチーフにした12種のアトラクションを収録。参加するのはあなたや家族、友達をはじめとした数々のMii。WiiU GamePadとWiiリモコンを使った様々な遊びが楽しめます。",
+    "thumbnail": "/images/nintendoland.jpg",
+    "platform": "WiiU",
+    "players": "1〜5人"
+  },
+  {
+    "id": "mario-sports-mix",
+    "title": "マリオスポーツミックス",
+    "description": "ドッジボール、バレーボール、バスケットボール、ホッケーの4種類のスポーツを収録したスポーツアクションゲーム。さまざまな仕掛けが用意されたコートの中で、マリオの仲間たちと一緒に、アイテムあり必殺技ありのハチャメチャな対戦が楽しめます。",
+    "thumbnail": "/images/mariosportsmix.png",
+    "platform": "Wii",
+    "players": "1〜4人"
+  },
+  {
+    "id": "mario-party-9",
+    "title": "マリオパーティー９",
+    "description": "クッパに奪われたリトルスターを取り戻すため、みんなで1台の乗り物に乗っていろいろなマップを大冒険！サイコロを降って進み、いろんなしかけやミニゲームに挑戦！ライバルたちよりもたくさんのリトルスターを集めよう！",
+    "thumbnail": "/images/marioparty9.jpg",
+    "platform": "Wii",
+    "players": "1〜4人"
   }
 ]

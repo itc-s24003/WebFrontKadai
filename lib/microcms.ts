@@ -3,6 +3,8 @@ type Game = {
   title: string;
   description: string;
   thumbnail?: string;
+  platform?: string;
+  players?: string;
 };
 
 const SERVICE_DOMAIN = process.env.MICROCMS_SERVICE_DOMAIN;
