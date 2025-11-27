@@ -1,11 +1,13 @@
-import { getGame, type Game } from "../../../lib/microcms";
+import { getGameDetail } from "@/lib/microcms";
+import type { Game } from "@/lib/microcms/type";
+import Image from "next/image";
 import Link from "next/link";
 
 type Props = { params: { id: string } };
 
 export default async function GamePage({ params }: Props) {
   const p: { id: string } = await params; // unwrap Promise provided by App Router
-  const game: Game | null = await getGame(p.id);
+  const game = await getGameDetail(p.id);
 
   if (!game) {
     return (
@@ -26,8 +28,13 @@ export default async function GamePage({ params }: Props) {
       </Link>
       <h1 style={{ fontSize: "2rem", fontWeight: 700, margin: "1rem 0 1.5rem 0", color: "#fff" }}>{game.title}</h1>
       {game.thumbnail ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={game.thumbnail} alt={game.title} style={{ width: "100%", height: "auto", maxHeight: 400, objectFit: "cover", borderRadius: "12px", marginBottom: "2rem" }} />
+        <Image
+          src={game.thumbnail.url}
+          alt={game.title}
+          width={game.thumbnail.width}
+          height={game.thumbnail.height}
+          style={{ width: "100%", height: "auto", maxHeight: 400, objectFit: "cover", borderRadius: "12px", marginBottom: "2rem" }}
+        />
       ) : null}
       <section style={{ color: "#fff", lineHeight: "1.8", fontSize: "1.05rem", marginBottom: "2rem" }}>
         <h2 style={{ fontSize: "1.3rem", fontWeight: 600, marginBottom: "0.75rem", color: "#fff" }}>ゲーム紹介</h2>

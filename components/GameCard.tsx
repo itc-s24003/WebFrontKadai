@@ -1,11 +1,13 @@
 "use client";
 import Link from 'next/link';
 import styles from './GameCard.module.css';
+import { MicroCMSImage } from 'microcms-js-sdk';
+import Image from 'next/image';
 
 type Props = {
   id: string;
   title: string;
-  thumbnail?: string;
+  thumbnail?: MicroCMSImage;
   onClick?: () => void; // If provided, render as interactive div instead of link
 };
 
@@ -22,7 +24,13 @@ export default function GameCard({ id, title, thumbnail, onClick }: Props) {
       >
         {thumbnail ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={thumbnail} alt={title} className={styles.thumb} />
+          <Image
+            src={thumbnail.url}
+            alt={title}
+            width={thumbnail.width}
+            height={thumbnail.height}
+            className={styles.thumb}
+          />
         ) : null}
         <div className={styles.content}>
           <h3 className={styles.title}>{title}</h3>
@@ -34,7 +42,13 @@ export default function GameCard({ id, title, thumbnail, onClick }: Props) {
     <Link href={`/games/${id}`} className={styles.card}>
       {thumbnail ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={thumbnail} alt={title} className={styles.thumb} />
+          <Image
+            src={thumbnail.url}
+            alt={title}
+            width={thumbnail.width}
+            height={thumbnail.height}
+            className={styles.thumb}
+          />
       ) : null}
       <div className={styles.content}>
         <h3 className={styles.title}>{title}</h3>

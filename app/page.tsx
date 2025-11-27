@@ -1,9 +1,10 @@
-import { getGames, type Game } from "../lib/microcms";
+import { getGameList } from "../lib/microcms";
 import Link from "next/link";
 import GameCard from "../components/GameCard";
+import { Game } from "@/lib/microcms/type";
 
 export default async function Home() {
-  const games: Game[] = await getGames();
+  const games: Game[] = await getGameList();
 
   const grouped = games.reduce<Record<string, Game[]>>((acc, g) => {
     const key = g.platform ?? "その他";
@@ -18,10 +19,6 @@ export default async function Home() {
         <div>
           <h1 style={{ fontSize: "2rem", fontWeight: 700, margin: "0 0 0.5rem 0" }}>好きなゲーム紹介</h1>
         </div>
-        <nav style={{ display: "flex", gap: "0.5rem" }}>
-          <Link href="/platform/switch" style={{ padding: "0.5rem 0.75rem", background: "#6366f1", borderRadius: 8, textDecoration: "none", color: "#fff" }}>Switch</Link>
-          <Link href="/platform/wii-wiiu" style={{ padding: "0.5rem 0.75rem", background: "#f97316", borderRadius: 8, textDecoration: "none", color: "#fff" }}>Wii / WiiU</Link>
-        </nav>
       </div>
 
       {Object.entries(grouped).map(([platform, list]) => (
