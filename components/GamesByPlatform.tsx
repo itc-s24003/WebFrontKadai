@@ -2,7 +2,7 @@
 import React from "react";
 import GameCard from "./GameCard";
 import GameDetailModal from "./GameDetailModal";
-import { type Game } from "../lib/microcms";
+import type { Game } from "../lib/microcms/type";
 
 interface Props {
   grouped: Record<string, Game[]>;
